@@ -29,18 +29,29 @@ def make_inv_index(filename):
 def find_me_in_text(input, filename):
     words = input.split()
     dictionary = make_inv_index(filename)
+    if (input == '' or input ==' '):
+        print('Empty request')
+		return 0
+    for word in words:
+        if (dictionary.get(word)== None):
+            print('None in this texts')
+            return -1
     lines = []
-    if len(words)==1:
-        lines = dictionary[words[0]]
-    else:
-        i = 0
-        while i<len(words)-1:
-            lines = set(dictionary[words[i]]) & set(dictionary[words[i+1]])
-            i+=1
-    if lines!= None:
-        for index in lines:
-            print_line(index, filename)
-    else:
-        print('None in this texts')
+    try:
+        if len(words)==1:
+            lines = dictionary[words[0]]
+        else:
+            i = 0
+            while i<len(words)-1:
+                lines = set(dictionary[words[i]]) & set(dictionary[words[i+1]])
+                i+=1
+        if lines!= None:
+            for index in lines:
+                print_line(index, filename)
+        else:
+            print('None in this texts')
+    except:
+        print('Error')
 
-find_me_in_text('что','sherlock.csv')
+
+find_me_in_text(' ','sherlock.csv')
