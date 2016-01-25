@@ -1,0 +1,44 @@
+import re
+import string
+
+def make_index (file_name):
+    myfile = open(file_name)
+    text_list = myfile.readlines()
+    text_str = ''.join(map(str, text_list))
+    print (text_str)
+    delete = re.compile('[%s]'%re.escape(string.punctuation))
+    new_text = delete.sub(' ' , text_str.lower())
+    texts = new_text.split('\n')
+    #print(texts)
+    dictionary = dict({})
+    index = 0
+    for text in texts:
+        text = delete.sub(' ', text)
+        line = text.split()
+        for word in line:
+            if (dictionary.get(word) == None):
+                dictionary[word] = set()
+            dictionary[word].add(index)
+        index += 1
+    #print(dictionary)
+    return dictionary
+
+def find (it, filename):
+    Myindex = make_index(filename)
+    it = re.split('\.| |,|;', it)
+    if(Myindex.get(it[0]) == None ):
+        print("Nothing\n")
+    else:
+        result = Myindex[it[0]]
+        for word in it:
+            result = result.intersection(Myindex[word])
+        # print (result)
+        return result
+
+
+line = 'постель'
+
+Myfindings = find(line, 'stich.csv')
+
+print (line)
+print (Myfindings)
