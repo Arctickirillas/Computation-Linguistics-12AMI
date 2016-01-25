@@ -63,6 +63,13 @@ class InvertedIndex:
         del _listOfRow,_rowIndex,_indexLabel
 
     def toFind(self,phrase):
+        def deleteZeroField(table):
+            _returnTable = []
+            for i,row in enumerate(table):
+                if row.sum()!=0.:
+                    _returnTable.append(row)
+            return np.array(_returnTable)
+
         def toStem(phrase):
             _newStatement = []
             phrase = word_tokenize(phrase)
@@ -107,11 +114,14 @@ class InvertedIndex:
             for i in range(self.numberOfText):
                 try:
                     element = self.index.getrow(i).getcol(self.indexLabel.index(word))
+                    if element>0:
+                        table[i][w] = element.toarray()[0][0]
                 except Exception:
-                    element = 0
-                if element>0:
-                    table[i][w] = element.toarray()[0][0]
+                    print('Searching without','\"'+word+'\"')
+                    break
 
+
+        table = deleteZeroField(table)
         table = sortTable(table)
 
         it = 1
