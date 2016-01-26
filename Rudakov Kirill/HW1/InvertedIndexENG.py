@@ -96,7 +96,7 @@ class InvertedIndex:
             _newTable = (np.sort(_newTable,order=['count', 'sum'],axis=0,kind='heapsort'))
 
             table = []
-            # print(_newTable)
+
             for i in range(len(_newTable)):
                 if int(_newTable[i][0][2])>0:
                     table.append(int(_newTable[i][0][0]))
@@ -115,7 +115,7 @@ class InvertedIndex:
                     break
 
         table = sortTable(table)
-        print(table)
+        # print(table)
         it = 1
 
         toDisplay(table,it)
