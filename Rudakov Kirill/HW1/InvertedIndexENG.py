@@ -63,13 +63,6 @@ class InvertedIndex:
         del _listOfRow,_rowIndex,_indexLabel
 
     def toFind(self,phrase):
-        def deleteZeroField(table):
-            _returnTable = []
-            for i,row in enumerate(table):
-                if row.sum()!=0.:
-                    _returnTable.append(row)
-            return np.array(_returnTable)
-
         def toStem(phrase):
             _newStatement = []
             phrase = word_tokenize(phrase)
@@ -103,9 +96,10 @@ class InvertedIndex:
             _newTable = (np.sort(_newTable,order=['count', 'sum'],axis=0,kind='heapsort'))
 
             table = []
-
+            # print(_newTable)
             for i in range(len(_newTable)):
-                table.append(int(_newTable[i][0][0]))
+                if int(_newTable[i][0][2])>0:
+                    table.append(int(_newTable[i][0][0]))
             return table
 
         phrase = toStem(phrase)
@@ -120,10 +114,8 @@ class InvertedIndex:
                     print('Searching without','\"'+word+'\"')
                     break
 
-
-        table = deleteZeroField(table)
         table = sortTable(table)
-
+        print(table)
         it = 1
 
         toDisplay(table,it)
@@ -165,7 +157,7 @@ def main():
 
     try:
         ind.toFind(inputPhrase)
-    except ValueError:
+    except Exception:
         print('Not found')
 
 # -- Main
