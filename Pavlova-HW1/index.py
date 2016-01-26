@@ -43,7 +43,7 @@ for line in f:
 f.close()
 
 
-words = 'cat father broom'
+words = 'whether father broom'
 stroki = []
 for i in range(0, len(words.split())):
         length = len(hash)
@@ -56,7 +56,11 @@ print ('Strings:')
 print (stroki)
 
 for i in range(0, len(stroki)):
-    for j in range(0, len(lines)):
-        if int(stroki[i])-1 == j:
-            print (lines[j])
-            break
+    if i>0:
+        if stroki[i]!=stroki[i-1]:
+            for j in range(0, len(lines)):
+                if int(stroki[i])-1 == j:
+                    print (lines[j])
+                    break
+    else:
+        print(lines[int(stroki[i])-1])
