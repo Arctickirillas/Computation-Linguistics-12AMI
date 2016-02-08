@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.4.1
+- http://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Окт 28 2014 г., 09:04
+- Версия сервера: 5.6.12
+- Версия PHP: 5.5.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="Romip" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="bank">
+                CREATE TABLE `bank` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `twitid` bigint(32) NOT NULL DEFAULT '0',
+                  `date` varchar(128) DEFAULT NULL,
+                  `name` varchar(128) DEFAULT NULL,
+                  `text` varchar(256) DEFAULT NULL,
+                  `sberbank` int(11) DEFAULT NULL,
+                  `vtb` int(11) DEFAULT NULL,
+                  `gazprom` int(11) DEFAULT NULL,
+                  `alfabank` int(11) DEFAULT NULL,
+                  `bankmoskvy` int(11) DEFAULT NULL,
+                  `raiffeisen` int(11) DEFAULT NULL,
+                  `uralsib` int(11) DEFAULT NULL,
+                  `rshb` int(11) DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `id` (`twitid`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=7924 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'Romip'
+    -->
+    <database name="Romip">
+        <!-- Таблица bank -->
+        <table name="bank">
+            <column name="id">2801</column>
+            <column name="twitid">496165260512880000</column>
+            <column name="date">1407129991</column>
+            <column name="name">MeaganNeas</column>
+            <column name="text">RT @BettyeSwanton: СМИ: российские власти отказались от идеи разделить Россельхозбанк МОСКВА, 4 авг &amp;amp;mdash; Р http://t.co/o4Z7GheQ6V</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2802</column>
+            <column name="twitid">496168441816950000</column>
+            <column name="date">1407130749</column>
+            <column name="name">yarik_fastpath</column>
+            <column name="text">Правительство решило не разделять Россельхозбанк - &quot;Коммерсантъ&quot; http://t.co/eKOHajBhaP</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2803</column>
+            <column name="twitid">496169447737290000</column>
+            <column name="date">1407130989</column>
+            <column name="name">worldnewsday</column>
+            <column name="text">[РБК]: Правительство отказалось от идеи разделения Россельхозбанка  http://t.co/mB0O8TPKbf]</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2804</column>
+            <column name="twitid">496170254280970000</column>
+            <column name="date">1407131181</column>
+            <column name="name">DaniilZubko</column>
+            <column name="text">RT @rianru: СМИ: российские власти отказались от идеи разделить Россельхозбанк http://t.co/0OrKHzpxBy</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2805</column>
+            <column name="twitid">496174628817990000</column>
+            <column name="date">1407132224</column>
+            <column name="name">rubiznes</column>
+            <column name="text">Правительство решило не разделять Россельхозбанк - &quot;Коммерсантъ&quot; http://t.co/wOnp1wdgDP</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2806</column>
+            <column name="twitid">496174629099020000</column>
+            <column name="date">1407132224</column>
+            <column name="name">tosya_govorova</column>
+            <column name="text">Правительство решило не разделять Россельхозбанк - &quot;Коммерсантъ&quot;  #Финансы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2807</column>
+            <column name="twitid">496174984646390000</column>
+            <column name="date">1407132309</column>
+            <column name="name">MediaFoxcomua</column>
+            <column name="text">Правительство отказалось от разделения «Россельхозбанка» /   /  /   /  / Российское правительство объявило об .. http://t.co/RI25pIMcfU</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2808</column>
+            <column name="twitid">496180272463770000</column>
+            <column name="date">1407133570</column>
+            <column name="name">Raisa_spb</column>
+            <column name="text">В Праге пикетировали Сбербанк / Общество / Новости / 420on.cz Пражский городской портал http://t.co/GI0qVcjhw6</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2809</column>
+            <column name="twitid">496180423173890000</column>
+            <column name="date">1407133606</column>
+            <column name="name">ilijmosyakin</column>
+            <column name="text">Всего вам самого хорошего! Давно вас читаю, очень вдохновляете. Внесла свой скромный студенческий вклад через Сбербанк Онлайн.</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2810</column>
+            <column name="twitid">496181584706680000</column>
+            <column name="date">1407133883</column>
+            <column name="name">SarahTh56024482</column>
+            <column name="text">Правительство отказалось от идеи разделения Россельхозбанка</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2811</column>
+            <column name="twitid">496181904538760000</column>
+            <column name="date">1407133959</column>
+            <column name="name">agroXXI_news</column>
+            <column name="text">Россельхозбанк неделимый: Реорганизация &quot;ВЭБа для села&quot; признана несвоевременной http://t.co/sUxy7qCrAU</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2812</column>
+            <column name="twitid">496184277164630000</column>
+            <column name="date">1407134524</column>
+            <column name="name">aaruxeju2308</column>
+            <column name="text">Андрей Ермаков назначен директором Нижегородского регионального филиала ОАО «Россельхозбанк»</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2813</column>
+            <column name="twitid">496199037209440000</column>
+            <column name="date">1407138044</column>
+            <column name="name">Eiffel82</column>
+            <column name="text">Сбербанк начал выпуск карт на базе российской платежной системы ПРО100: Сбербанк приступил к выпуску банковски... http://t.co/BxmCthP319</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2814</column>
+            <column name="twitid">496199038618720000</column>
+            <column name="date">1407138044</column>
+            <column name="name">OlgaViferi</column>
+            <column name="text">Сбербанк начал выпуск карт на базе российской платежной системы ПРО100: Сбербанк приступил к выпуску банковски... http://t.co/wsjkY4TvkG</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2815</column>
+            <column name="twitid">496199789327820000</column>
+            <column name="date">1407138223</column>
+            <column name="name">itsgravitytime</column>
+            <column name="text">Новости ИТАР-ТАСС Сбербанк начал выпуск карт ПРО100 по всей России  #новости #вести</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2816</column>
+            <column name="twitid">496200005347480000</column>
+            <column name="date">1407138274</column>
+            <column name="name">ottenki_serogo</column>
+            <column name="text">@alfa_bank ребят,  как я могу проверить номер если он скрыт?</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2817</column>
+            <column name="twitid">496200466955790000</column>
+            <column name="date">1407138384</column>
+            <column name="name">DrJeston</column>
+            <column name="text">RT @olly577: В Донецке мародерство. Женщина у которой отобрали полученные со сбер книжки гривны обратилась в ДНР, а ей ответ- скажите спаси…</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2818</column>
+            <column name="twitid">496203864278700000</column>
+            <column name="date">1407139194</column>
+            <column name="name">malovds</column>
+            <column name="text">Lenta.ru: Сбербанк начал выпуск карт на базе российской платежной системы ПРО100 http://t.co/8NlIhpMP9k с помощью @lentaruofficial</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2819</column>
+            <column name="twitid">496204029093880000</column>
+            <column name="date">1407139234</column>
+            <column name="name">rywocdonna</column>
+            <column name="text">инструкция по подключению услуги сбербанк http://t.co/vT3fs6vJ9k #по #инструкция</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2820</column>
+            <column name="twitid">496204663805320000</column>
+            <column name="date">1407139385</column>
+            <column name="name">furianame</column>
+            <column name="text">#Бизнес Сбербанк начал выпуск карт ПРО100 на территории России: Сбербанк России начал выпуск банковских карт российской платежной сис...</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2821</column>
+            <column name="twitid">496204664749040000</column>
+            <column name="date">1407139385</column>
+            <column name="name">vjobivai</column>
+            <column name="text">#бизнес Сбербанк начал выпуск карт ПРО100 на территории России: Сбербанк России начал выпуск банковских карт р... http://t.co/UCuhI2A2dG</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2822</column>
+            <column name="twitid">496205309552390000</column>
+            <column name="date">1407139539</column>
+            <column name="name">poteminai</column>
+            <column name="text">RT @banki_ru: Россельхозбанк не будут делить на комбанк и институт развития http://t.co/6SBOl61IZm Условия в банковском секторе сейчас небл…</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2823</column>
+            <column name="twitid">496206207213110000</column>
+            <column name="date">1407139753</column>
+            <column name="name">samara_region</column>
+            <column name="text">RT @news800: #тольятти Поволжский Сбербанк организовал турнир по пляжному волейболу http://t.co/bDQ7xUZ9Jx</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2824</column>
+            <column name="twitid">496209505764770000</column>
+            <column name="date">1407140539</column>
+            <column name="name">crysammoena1974</column>
+            <column name="text">Сбербанк начал выпуск карт на базе ПРО100. Как стало известно uznayvse.ru, Сбербанк России начал выпускать банковские карты на базе российс</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2825</column>
+            <column name="twitid">496209635792420000</column>
+            <column name="date">1407140570</column>
+            <column name="name">BryanKodba4</column>
+            <column name="text">Райффайзенбанк аккредитовал ЖК Skandi Klubb</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">0</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2826</column>
+            <column name="twitid">496210525005840000</column>
+            <column name="date">1407140782</column>
+            <column name="name">mr_pindyk</column>
+            <column name="text">@alfa_bank еще раз повторюсь если баланс - ноль смысла (а приходы с овердрафта ее обнуляют) в ней никакого</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2827</column>
+            <column name="twitid">496211872535020000</column>
+            <column name="date">1407141104</column>
+            <column name="name">worldnewsday</column>
+            <column name="text">Я.Новости | Финансы: Сбербанк начал выпуск карт на базе российской платежной системы ПРО100 http://t.co/AeoKTIC2zi</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2828</column>
+            <column name="twitid">496212750314390000</column>
+            <column name="date">1407141313</column>
+            <column name="name">cacdmitn</column>
+            <column name="text">Реорганизацию Россельхозбанка признали несвоевременной</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2829</column>
+            <column name="twitid">496212919391370000</column>
+            <column name="date">1407141353</column>
+            <column name="name">86Nura</column>
+            <column name="text">RT @AlbertKprf: Сбербанк начал выпуск карт на базе российской платежной системы ПРО100: http://t.co/Y3Ww43UTWc</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2830</column>
+            <column name="twitid">496214539403550000</column>
+            <column name="date">1407141740</column>
+            <column name="name">acinretho1986</column>
+            <column name="text">Sberbank CIB снизил рейтинг &quot;обычки&quot; Газпрома до &quot;держать&quot; и &quot;префов&quot; Транснефти до &quot;продавать&quot;</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">--</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2831</column>
+            <column name="twitid">496214976588420000</column>
+            <column name="date">1407141844</column>
+            <column name="name">seamarusya</column>
+            <column name="text">RT @ferraru: Сбербанк выпустил карточки &quot;наш ответ Visa и Mastercard&quot;: http://t.co/IM3iX2agqw</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2832</column>
+            <column name="twitid">496214979482490000</column>
+            <column name="date">1407141844</column>
+            <column name="name">booomberman</column>
+            <column name="text">Ждём и в других банках: &quot;@ZarathustraK: Сбербанк начал выпуск карт на базе российской платежной системы ПРО100: http://t.co/o1YihKE07J&quot;</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2833</column>
+            <column name="twitid">496215546023930000</column>
+            <column name="date">1407141980</column>
+            <column name="name">lydycavuwufo</column>
+            <column name="text">Под новые санкции Евросоюза попали Сбербанк, ВТБ, Газромбанк, Внешэкономбанк, Россельхозбанк</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">-1</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">2834</column>
+            <column name="twitid">496219287301160000</column>
+            <column name="date">1407142872</column>
+            <column name="name">susanricanna</column>
+            <column name="text">кредит наличными пенсионерам сбербанк http://t.co/uKsX8onP2a</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2835</column>
+            <column name="twitid">496221450349860000</column>
+            <column name="date">1407143387</column>
+            <column name="name">AdrienneGee1</column>
+            <column name="text">Сбербанк приступил к выпуску банковских карт ПРО100 Сбербанк приступил к выпуску банковски http://t.co/y6P95RKDAf</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2836</column>
+            <column name="twitid">496231935984010000</column>
+            <column name="date">1407145887</column>
+            <column name="name">DMiVTR</column>
+            <column name="text">Citibank - почти сбербанк по очередям</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2837</column>
+            <column name="twitid">496233942195130000</column>
+            <column name="date">1407146366</column>
+            <column name="name">finam_fm</column>
+            <column name="text">#Реактивный_трейдинг #Андрей_Сапунов #Газпром #акции #санкции #Сбербанк #финансовый_рынок / Андрей Сапунов уверен,.. http://t.co/6PgPvdOgIN</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">--</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2838</column>
+            <column name="twitid">496235299241210000</column>
+            <column name="date">1407146689</column>
+            <column name="name">qydytejyvyte</column>
+            <column name="text">RT @disowaloqor: http://t.co/JSBF1vmqCP Сбербанк начал выпуск карт на российской платежной системе ПРО100</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2839</column>
+            <column name="twitid">496235511774970000</column>
+            <column name="date">1407146740</column>
+            <column name="name">mr_pindyk</column>
+            <column name="text">@alfa_bank календарный месяц и месяц финансовый это все-таки разные периоды</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">--</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2840</column>
+            <column name="twitid">496235912624230000</column>
+            <column name="date">1407146835</column>
+            <column name="name">Jorandombe</column>
+            <column name="text">RT @GazetaRu: &quot;Райффайзен&quot; закрывает все свои филиалы в Крыму #новости http://t.co/V0wA01h526</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">0</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2841</column>
+            <column name="twitid">496238739287720000</column>
+            <column name="date">1407147509</column>
+            <column name="name">realnienovosti1</column>
+            <column name="text">СМИ: российские власти отказались от идеи разделить Россельхозбанк
+
+По словам заместителя министра 
+Читать далее: http://t.co/C3u1i68VVZ</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2842</column>
+            <column name="twitid">496238790521160000</column>
+            <column name="date">1407147521</column>
+            <column name="name">yuvenala</column>
+            <column name="text">Райффайзен уже откуда-то знает, где я работаю и шлет мне гору спама
+Надо же, какая радость</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">-1</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2843</column>
+            <column name="twitid">496239389299600000</column>
+            <column name="date">1407147664</column>
+            <column name="name">legal_soft</column>
+            <column name="text">#legalsoft Россельхозбанк открыл офис в Москве  http://t.co/AnXlmrbKad</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2844</column>
+            <column name="twitid">496241975562350000</column>
+            <column name="date">1407148281</column>
+            <column name="name">karinantarktida</column>
+            <column name="text">RT @sberbank: Нужно перевести деньги родным, но вы забыли номер их карты? Воспользуйтесь сервисом переводов «Мобильного банка». http://t.co…</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2845</column>
+            <column name="twitid">496251595001450000</column>
+            <column name="date">1407150574</column>
+            <column name="name">tiapresitim1977</column>
+            <column name="text">Россельхозбанк неделимый // Реорганизация &quot;ВЭБа для села&quot; признана несвоевременной</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2846</column>
+            <column name="twitid">496253445264110000</column>
+            <column name="date">1407151015</column>
+            <column name="name">a_akmav</column>
+            <column name="text">Навигатор @navigatorkirov  40 сек. / Сбербанк выпустил пластиковые карты российской платежной системы / ht.. http://t.co/EEljLJwiSm</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2847</column>
+            <column name="twitid">496256124421550000</column>
+            <column name="date">1407151654</column>
+            <column name="name">creditsoc</column>
+            <column name="text">Приостановка деятельности &quot;Добролета&quot; обойдется &quot;Аэрофлоту&quot; примерно в $40 млн, оценил аналитик Газпромбанка Михаил Ганелин. По состо...</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">--</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2848</column>
+            <column name="twitid">496257350601560000</column>
+            <column name="date">1407151947</column>
+            <column name="name">investiruy</column>
+            <column name="text">Минфин США оштрафовал Банк Москвы за нарушение иранских санкций http://t.co/fKmXYGQXoV</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2849</column>
+            <column name="twitid">496257557707880000</column>
+            <column name="date">1407151996</column>
+            <column name="name">serj7077</column>
+            <column name="text">RT @omniumil: Сбербанк начал выпуск карт на базе российской платежной системы ПРО100</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2850</column>
+            <column name="twitid">496259669027880000</column>
+            <column name="date">1407152499</column>
+            <column name="name">ElishevaPavloff</column>
+            <column name="text">Россельхозбанк открыл офис в Москве</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2851</column>
+            <column name="twitid">496261032491620000</column>
+            <column name="date">1407152824</column>
+            <column name="name">MTrusov27</column>
+            <column name="text">Приостановка деятельности &quot;Добролета&quot; обойдется &quot;Аэрофлоту&quot; примерно в $40 млн, оценил аналитик Газпромбанка Михаил Ганелин. По состоянию н</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">--</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2852</column>
+            <column name="twitid">496262124415770000</column>
+            <column name="date">1407153085</column>
+            <column name="name">orishyria1977</column>
+            <column name="text">Издание &quot;Коммерсант&quot; сообщило, что российское правительство передумало разделять &quot;Россельхозбанк&quot; (РСХБ) на коммерческий банк и институт ра</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2853</column>
+            <column name="twitid">496263240146750000</column>
+            <column name="date">1407153351</column>
+            <column name="name">il_major</column>
+            <column name="text">RT @sberbank: Последние дни для подачи заявки на магистерскую программу «Финансы»
+Сбербанка и ВШЭ (до 8 августа) http://t.co/JxGM12oXVA</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2854</column>
+            <column name="twitid">496264937086270000</column>
+            <column name="date">1407153755</column>
+            <column name="name">ldwinDres</column>
+            <column name="text">http://t.co/oRwP56Mnnd FTSE может исключить из индексов Сбербанк и ВТБ</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2855</column>
+            <column name="twitid">496271221236170000</column>
+            <column name="date">1407155254</column>
+            <column name="name">helvk</column>
+            <column name="text">RT @onlinekpru: #Сбербанк начал выпускать карты на базе российской платежной системы ПРО100 // KP.RU http://t.co/G5j9gmGXx3</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2856</column>
+            <column name="twitid">496275804276270000</column>
+            <column name="date">1407156346</column>
+            <column name="name">flovemkvovi</column>
+            <column name="text">Правительство России отказалось от идеи разделять «Россельхозбанк»</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2857</column>
+            <column name="twitid">496276119814180000</column>
+            <column name="date">1407156421</column>
+            <column name="name">BrebanYard</column>
+            <column name="text">http://t.co/zYZXZLsDIp Хочу взять кредит в россельхозбанке в городе кемерово</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2858</column>
+            <column name="twitid">496276277067020000</column>
+            <column name="date">1407156459</column>
+            <column name="name">Zakirov1741</column>
+            <column name="text">RT @rucontinental: Сбербанк начал выпуск карт на базе российской платежной системы ПРО100 /  / http://t.co/hE7uXSUCb2 http://t.co/ak5ySRjPj0</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2859</column>
+            <column name="twitid">496276315096780000</column>
+            <column name="date">1407156468</column>
+            <column name="name">be_native</column>
+            <column name="text">FTSE может исключить из индексов Сбербанк и ВТБ http://t.co/2IQOceqH4K http://t.co/OCliIEiTlD</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2860</column>
+            <column name="twitid">496278243998450000</column>
+            <column name="date">1407156928</column>
+            <column name="name">wdenPoppel</column>
+            <column name="text">http://t.co/iuzaIqKuGb Оформить потребительский кредит в газпромбанке</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">0</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2861</column>
+            <column name="twitid">496278554938600000</column>
+            <column name="date">1407157002</column>
+            <column name="name">lexacom</column>
+            <column name="text">Оао банк втб http://t.co/bBelUfkLZ1</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2862</column>
+            <column name="twitid">496286545125870000</column>
+            <column name="date">1407158907</column>
+            <column name="name">PGareev15</column>
+            <column name="text">Правительство передумало разделять &quot;Россельхозбанк&quot;.Издание &quot;Коммерсант&quot; сообщило, что российское правительство передумало разделять &quot;Россе</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2863</column>
+            <column name="twitid">496286981463470000</column>
+            <column name="date">1407159011</column>
+            <column name="name">ad1Dima</column>
+            <column name="text">А еще @alfa_bank очень расстроен, что я не хочу их кредитку...</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2864</column>
+            <column name="twitid">496291242888950000</column>
+            <column name="date">1407160027</column>
+            <column name="name">worldnewsday</column>
+            <column name="text">Я.Новости | Финансы: FTSE из-за санкций может исключить ВТБ и Сбербанк из своих индексов http://t.co/EwYPFHE7Rv</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2865</column>
+            <column name="twitid">496291898944790000</column>
+            <column name="date">1407160184</column>
+            <column name="name">senza_sensi</column>
+            <column name="text">Ну,спасибо Украина! ЖОПА!!! FTSE может исключить Сбербанк и ВТБ из индексов из-за санкций Запада http://t.co/ZFx1YJrCYp с помощью @banki_ru</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2866</column>
+            <column name="twitid">496292317880650000</column>
+            <column name="date">1407160283</column>
+            <column name="name">worldnewsday</column>
+            <column name="text">Я.Новости | Экономика: FTSE из-за санкций может исключить ВТБ и Сбербанк из своих индексов http://t.co/EwYPFHE7Rv</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2867</column>
+            <column name="twitid">496300287993200000</column>
+            <column name="date">1407162184</column>
+            <column name="name">Zinelil</column>
+            <column name="text">ВТБ и Сбербанк могут вычеркнуть из индекса Лондонской биржи http://t.co/WCKTN1lQ17</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2868</column>
+            <column name="twitid">496301979795480000</column>
+            <column name="date">1407162587</column>
+            <column name="name">YuNovikova33</column>
+            <column name="text">Люблю. Карта *4179 , есть кредитка от Альфа Банка на эту же сумму, и от Сбера на 100 000, можешь проверить, мне доверяют!</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">--</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2869</column>
+            <column name="twitid">496302625978320000</column>
+            <column name="date">1407162741</column>
+            <column name="name">svetlanapazina</column>
+            <column name="text">Официальный калькулятор автокредита Россельхозбанка. http://t.co/WQeS4m8c3y</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2870</column>
+            <column name="twitid">496305617993490000</column>
+            <column name="date">1407163454</column>
+            <column name="name">urjcasrin</column>
+            <column name="text">http://t.co/WjSp5ydgsc Как взять кредит в россельхозбанке в онеге</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2871</column>
+            <column name="twitid">496309661537010000</column>
+            <column name="date">1407164418</column>
+            <column name="name">svatyv</column>
+            <column name="text">RT @dosuzakavom: Внешэкономбанк, ВТБ и Сбербанк планируют вложить в реализацию проекта развития Элегестского угольного месторождения и стро…</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2872</column>
+            <column name="twitid">496312204501980000</column>
+            <column name="date">1407165025</column>
+            <column name="name">YaroslavStarkov</column>
+            <column name="text">RT @sberbank: Что важного произошло в российской и мировой экономике за прошлую неделю? Обзор ЦМИ Сбербанка (файл PDF) http://t.co/Gq4Gh7QB…</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2873</column>
+            <column name="twitid">496319261376540000</column>
+            <column name="date">1407166707</column>
+            <column name="name">LGuseva26</column>
+            <column name="text">А у нас тоже неплохо. Вон - по итогам 2008 года члены правления Газпромбанка (их 15 человек) получили премии по 72 млн руб.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">--</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2874</column>
+            <column name="twitid">496323968287380000</column>
+            <column name="date">1407167829</column>
+            <column name="name">ynorGarlan</column>
+            <column name="text">Роберто Баутиста-Агут выступит на турнире Банк Москвы Кубок Кремля: Испанский теннисист Роберто Баутиста-Агут ... http://t.co/1U9BeyYF1T</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">--</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2875</column>
+            <column name="twitid">496325243464880000</column>
+            <column name="date">1407168133</column>
+            <column name="name">RGluhov20</column>
+            <column name="text">Объём вкладов физических лиц Мордовского филиала Россельхозбанка превысил 2,5 млрд рублей. По состоянию на 1 августа 2014 года объем депози</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2876</column>
+            <column name="twitid">496336319095010000</column>
+            <column name="date">1407170774</column>
+            <column name="name">MGasanov48</column>
+            <column name="text">Пока же, по словам Дмитриева, подключиться к инвестированию в Северный Кавказ готовы Сбербанк и Россельхозбанк.</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2877</column>
+            <column name="twitid">496341486875980000</column>
+            <column name="date">1407172006</column>
+            <column name="name">wdenPoppel</column>
+            <column name="text">http://t.co/CKUjU3Cz7d Взять кредит в альфа банке калькулятор</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2878</column>
+            <column name="twitid">496341763251250000</column>
+            <column name="date">1407172072</column>
+            <column name="name">topaqlasui</column>
+            <column name="text">http://t.co/8MGWm3mRzT Получить кредит в газпромбанке на строительство</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">0</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2879</column>
+            <column name="twitid">496348423260740000</column>
+            <column name="date">1407173660</column>
+            <column name="name">LAntonova41</column>
+            <column name="text">А Сбербанк дает кредиты только под НОВЫЕ автомобили. Цэ санкцыи.</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2880</column>
+            <column name="twitid">496349083016390000</column>
+            <column name="date">1407173817</column>
+            <column name="name">red_white_Alex</column>
+            <column name="text">@an_cate ох, того глядишь на всех распространят с этими санкциями. сбер тож в санкционный список ввели, хз что выйдет из этого</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2881</column>
+            <column name="twitid">496352750977180000</column>
+            <column name="date">1407174692</column>
+            <column name="name">isserBell</column>
+            <column name="text">http://t.co/3zgkGQzyu4 Как взять кредит за 1 день в альфа банке</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2882</column>
+            <column name="twitid">496354520583410000</column>
+            <column name="date">1407175114</column>
+            <column name="name">eliceStr</column>
+            <column name="text">http://t.co/YwMaqme0d6 Как оформить кредит в альфа банке быстрои выгодно</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2883</column>
+            <column name="twitid">496354998276480000</column>
+            <column name="date">1407175228</column>
+            <column name="name">DogyRuth</column>
+            <column name="text">http://t.co/Bo41fYm935 Казахстанский бта Банк и Сбербанк обсуждают совместные</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2884</column>
+            <column name="twitid">496355265051390000</column>
+            <column name="date">1407175291</column>
+            <column name="name">thyrasoumesi</column>
+            <column name="text">RT @tindirefnewsswi: сбербанк долг по кредиту http://t.co/GsR89SeCfx</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2885</column>
+            <column name="twitid">496356121658280000</column>
+            <column name="date">1407175495</column>
+            <column name="name">3Q1zaGpxOgqAna0</column>
+            <column name="text">Роберто Баутиста-Агут выступит на турнире Банк Москвы Кубок Кремля</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">--</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2886</column>
+            <column name="twitid">496359920791730000</column>
+            <column name="date">1407176401</column>
+            <column name="name">ElmiraMeg</column>
+            <column name="text">FTSE может исключить из индексов Сбербанк и ВТБ
+
+Автор: Workle Editor 
+
+Провайдер индексов #FTSE может исключить... http://t.co/fXQfOo5Vew</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2887</column>
+            <column name="twitid">496361966509000000</column>
+            <column name="date">1407176889</column>
+            <column name="name">bihedyluze</column>
+            <column name="text">Как сделать кредитную карту сбербанк http://t.co/wF2SSdVwbB</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2888</column>
+            <column name="twitid">496368050078520000</column>
+            <column name="date">1407178339</column>
+            <column name="name">AErofeev14</column>
+            <column name="text">&amp;amp;nbsp;
+
+Мордовский филиал Россельхозбанка за 2013 год и в первый квартал 
+2014 года выдал более 667,5 млн рублей на развитие сельхозпредпр</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2889</column>
+            <column name="twitid">496368527960710000</column>
+            <column name="date">1407178453</column>
+            <column name="name">ryvafygutaz</column>
+            <column name="text">Снижены ставки по кредитам сбербанк http://t.co/R900lWxLUf</column>
+            <column name="sberbank">1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2890</column>
+            <column name="twitid">496373112699900000</column>
+            <column name="date">1407179546</column>
+            <column name="name">leoreijii</column>
+            <column name="text">@dickclaus @denisx @alfa_bank нажми на гамбургер и там выбери &quot;полная версия&quot;. Он как-то &quot;оптимизирует&quot; страницы, похоже.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">--</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2891</column>
+            <column name="twitid">496373584903020000</column>
+            <column name="date">1407179659</column>
+            <column name="name">mehyruqe</column>
+            <column name="text">Банк москвы кредит ипотека http://t.co/26No8RlwLQ</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2892</column>
+            <column name="twitid">496380094492210000</column>
+            <column name="date">1407181211</column>
+            <column name="name">zicexigogu</column>
+            <column name="text">Кредит физическим лицам сбербанк омск http://t.co/4iGGGATgPA</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2893</column>
+            <column name="twitid">496382123411270000</column>
+            <column name="date">1407181695</column>
+            <column name="name">nytidohyzef</column>
+            <column name="text">Банк втб 24 автокредиты http://t.co/YGFmGfeCIY</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2894</column>
+            <column name="twitid">496383156569010000</column>
+            <column name="date">1407181941</column>
+            <column name="name">NAbdullaeva46</column>
+            <column name="text">Россельхозбанк помогает фермерству развиваться.&amp;amp;nbsp;
+
+Мордовский филиал Россельхозбанка за 2013 год и в первый квартал 
+2014 года выдал б</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">2895</column>
+            <column name="twitid">496384635837100000</column>
+            <column name="date">1407182294</column>
+            <column name="name">Serge_63</column>
+            <column name="text">RT @VasilyiChuyko: @Serge_63Народ загоняют в Сбербанк под 3,5%,а он выдаёт кредиты не менее чем под 12%.При этом за каждую операцию ещё бер…</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2896</column>
+            <column name="twitid">496385156828390000</column>
+            <column name="date">1407182418</column>
+            <column name="name">dowiwenilak</column>
+            <column name="text">Получить кредит в новосибирске сбербанк http://t.co/YpfrPvqPGm</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2897</column>
+            <column name="twitid">496385706294790000</column>
+            <column name="date">1407182549</column>
+            <column name="name">haworthywkareen</column>
+            <column name="text">Автокредит в газпромбанке в уфе http://t.co/68DpSugT8t</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">0</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2898</column>
+            <column name="twitid">496388127670680000</column>
+            <column name="date">1407183126</column>
+            <column name="name">AndreySmirnov76</column>
+            <column name="text">Техническая поддержка #сбербанк консультирует по продуктам!!!!! А прямыми обязанностями не занимается!!! #сбербанкАДЪ @sberbank</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2899</column>
+            <column name="twitid">496388281215750000</column>
+            <column name="date">1407183163</column>
+            <column name="name">MikhailFedorin</column>
+            <column name="text">В викторине сбербанка с пятью призовыми местами занял шестое #сбербанк #мишкалох</column>
+            <column name="sberbank">--</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">2900</column>
+            <column name="twitid">496389662366510000</column>
+            <column name="date">1407183492</column>
+            <column name="name">P_Krasnov38</column>
+            <column name="text">Карты принимаются более чем в 350 тыс. торгово-сервисных организаций Сбербанк России приступил к выпуску банковских карт российской платежн</column>
+            <column name="sberbank">1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>
