@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 import re
 import numpy as np
 import pandas as pd
+import pymorphy2
 
 # deleted http//..., numbers and simbols (including #), RT and users, all English char
 symbolsInspector = re.compile(r'([–…=·~—#”“\*$€№.«»?\-!&,+%\"\|:;()\/\']|http[.:/a-zA-Z0-9]*|[@a-zA-z0-9]|RT)')
@@ -21,6 +22,9 @@ dictionary = set([])
 positiveIndex = []
 negativeIndex = []
 
+# word to the normal form
+morph = pymorphy2.MorphAnalyzer()
+
 # POSITIVE - 356, NEGATIVE - 1066, NEUTRAL - other are not considered
 fileList = listdir("BankTrain")
 for pathToXML in fileList:
@@ -31,25 +35,26 @@ for pathToXML in fileList:
             field = dict(zip(dictionary,np.zeros(len(dictionary))))
             for word in splittedLine:
                 if word in field:
-                    field[word] = 1.
+                    field[word] += 1.
             return field
 
         splittedLine =(symbolsInspector.sub('',element[4].text).lower().split())
         clearLine = []
         for word in splittedLine:
             if word not in stopword:
-                clearLine.append(word)
+                p = morph.parse(word)[0]
+                clearLine.append(p.normal_form)
+
+
         dictionary = dictionary.union(set(clearLine))
 
         for i in range(0,8,1):
              if element[i+5].text == '1':
-                # print('POS'+element[0].text)
                 positiveIndex.append(obtainInvertedIndex(dictionary))
                 break
              elif element[i+5].text == '-1':
-                 # print('NEG'+element[0].text)
-                 negativeIndex.append(obtainInvertedIndex(dictionary))
-                 break
+                negativeIndex.append(obtainInvertedIndex(dictionary))
+                break
 
 # TWO Frame
 dataFramePos = pd.DataFrame(positiveIndex).fillna(0)
@@ -90,7 +95,6 @@ def getC_i(N,R,listOfR,listOfN):
         #     c_i = np.log((a*(1-b))/(b*(1-a)))
         c_i = np.log((listOfR[i]+0.5)*(N-listOfN[i]-R+listOfR[i]+0.5)/((R-listOfR[i]+0.5)*(listOfN[i]-listOfR[i]+0.5)))
 
-
         listOfC.append(c_i)
     return listOfC,C
 def getG(listOfC,C):
@@ -98,8 +102,12 @@ def getG(listOfC,C):
 
 # -- MAIN
 print('Введите запрос:')
-query = input()
-query = symbolsInspector.sub('',query).lower().split()
+preQuery = input()
+preQuery = symbolsInspector.sub('',preQuery).lower().split()
+query = []
+for word in preQuery:
+    p = morph.parse(word)[0]
+    query.append(p.normal_form)
 
 # obtaining all main vars
 listOfN,listOfR,R,N = (getN_i(query),getR_i(query),getR(),getN())
