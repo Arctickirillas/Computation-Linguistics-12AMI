@@ -9,7 +9,7 @@ from scipy.sparse import csr_matrix
 import pickle
 class InvertedIndex:
     # file: path to file; language: current articles language; searchingType: use numbers for searching or not
-    def __init__(self, file = 'Rudakov Kirill/HW1/ENGtext.csv',language = 'english', searchingType = 'withNumbers'):
+    def __init__(self, file = '/Rudakov Kirill/HW1/ENGtext.csv',language = 'english', searchingType = 'withNumbers'):
         self.file = file
         self.language = language
         if searchingType == 'withNumbers':
@@ -98,19 +98,24 @@ class InvertedIndex:
             table = []
 
             for i in range(len(_newTable)):
-                table.append(int(_newTable[i][0][0]))
+                if int(_newTable[i][0][2])>0:
+                    table.append(int(_newTable[i][0][0]))
             return table
 
         phrase = toStem(phrase)
         table = np.zeros((self.numberOfText,len(phrase)))
         for w,word in enumerate(phrase):
             for i in range(self.numberOfText):
-                element=self.index.getrow(i).getcol(self.indexLabel.index(word))
-                if element>0:
-                    table[i][w] = element.toarray()[0][0]
+                try:
+                    element = self.index.getrow(i).getcol(self.indexLabel.index(word))
+                    if element>0:
+                        table[i][w] = element.toarray()[0][0]
+                except Exception:
+                    print('Searching without','\"'+word+'\"')
+                    break
 
         table = sortTable(table)
-
+        # print(table)
         it = 1
 
         toDisplay(table,it)
@@ -142,20 +147,18 @@ def main():
     ind = InvertedIndex()
 
     try:
-        with open('Rudakov Kirill/HW1/index.pickle', 'rb') as dump:
+        with open('/Rudakov Kirill/HW1/index.pickle', 'rb') as dump:
             ind.index = pickle.load(dump)
     except FileNotFoundError:
         ind.obtainOrRebuildIndex()
-        with open('Rudakov Kirill/HW1/data.pickle', 'wb') as dump:
+        with open('/Rudakov Kirill/HW1/data.pickle', 'wb') as dump:
             pickle.dump(ind.index, dump)
     inputPhrase = input()
 
     try:
         ind.toFind(inputPhrase)
-    except ValueError:
+    except Exception:
         print('Not found')
-
-
 
 # -- Main
 main()
