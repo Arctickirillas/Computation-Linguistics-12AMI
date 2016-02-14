@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.4.1
+- http://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Окт 28 2014 г., 09:04
+- Версия сервера: 5.6.12
+- Версия PHP: 5.5.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="Romip" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="bank">
+                CREATE TABLE `bank` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `twitid` bigint(32) NOT NULL DEFAULT '0',
+                  `date` varchar(128) DEFAULT NULL,
+                  `name` varchar(128) DEFAULT NULL,
+                  `text` varchar(256) DEFAULT NULL,
+                  `sberbank` int(11) DEFAULT NULL,
+                  `vtb` int(11) DEFAULT NULL,
+                  `gazprom` int(11) DEFAULT NULL,
+                  `alfabank` int(11) DEFAULT NULL,
+                  `bankmoskvy` int(11) DEFAULT NULL,
+                  `raiffeisen` int(11) DEFAULT NULL,
+                  `uralsib` int(11) DEFAULT NULL,
+                  `rshb` int(11) DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `id` (`twitid`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=7924 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'Romip'
+    -->
+    <database name="Romip">
+        <!-- Таблица bank -->
+        <table name="bank">
+            <column name="id">1401</column>
+            <column name="twitid">494376266254930000</column>
+            <column name="date">1406703461</column>
+            <column name="name">pnolevomp</column>
+            <column name="text">http://t.co/PaDHXTXeWk россельхозбанк калькулятор кредит</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1402</column>
+            <column name="twitid">494377186321630000</column>
+            <column name="date">1406703680</column>
+            <column name="name">ahyavergiw</column>
+            <column name="text">руководство тувинского филиала россельхозбанка http://t.co/pQfzg3Rfa3 #филиала #россельхозбанка</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1403</column>
+            <column name="twitid">494377237009820000</column>
+            <column name="date">1406703693</column>
+            <column name="name">timmyLOL2</column>
+            <column name="text">Новость! -  ЦБ РФ готов поддержать ВТБ, РСХБ и Банк Москвы после введения против них санкций США</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1404</column>
+            <column name="twitid">494377900012220000</column>
+            <column name="date">1406703851</column>
+            <column name="name">OJandarov34</column>
+            <column name="text">Ранее американский Минфин сообщил, что под санкции попали Объединённая судостроительная корпорация, ВТБ, Россельхозбанк и &quot;Банк Москвы&quot;.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1405</column>
+            <column name="twitid">494378674872150000</column>
+            <column name="date">1406704035</column>
+            <column name="name">EL_dar4eg</column>
+            <column name="text">RT @RT_russian: ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы http://t.co/7FyBThmFwl</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1406</column>
+            <column name="twitid">494378724460990000</column>
+            <column name="date">1406704047</column>
+            <column name="name">OKozyrov</column>
+            <column name="text">RT @kommersant: Visa и MasterCard не намерены блокировать карты ВТБ, Банка Москвы и Россельхозбанка http://t.co/FHGaYhUsHS</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1407</column>
+            <column name="twitid">494379294122980000</column>
+            <column name="date">1406704183</column>
+            <column name="name">kolja_vo_206939</column>
+            <column name="text">ЦБ РФ готов поддержать ВТБ, РСХБ и Банк Москвы после введения против них санкций США: В июле, когда был введен...</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1408</column>
+            <column name="twitid">494381460825320000</column>
+            <column name="date">1406704700</column>
+            <column name="name">NAlekseev29</column>
+            <column name="text">СМИ: Сбербанк и ВТБ внесены в санкционный список ЕС.В числе юридических лиц, попадающих под новые санкции ЕС, названы крупнейшие российские</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1409</column>
+            <column name="twitid">494381648310320000</column>
+            <column name="date">1406704744</column>
+            <column name="name">esnicisukid</column>
+            <column name="text">http://t.co/sP88x2hzJa сбербанк в ярославле автокредит</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1410</column>
+            <column name="twitid">494382228190030000</column>
+            <column name="date">1406704883</column>
+            <column name="name">irerywhfar</column>
+            <column name="text">http://t.co/NwTIpSwIwa Получить кредит 300 тыс сбербанк кредит уфа</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1411</column>
+            <column name="twitid">494382417785130000</column>
+            <column name="date">1406704928</column>
+            <column name="name">da_smirnov</column>
+            <column name="text">RT @kommersant: Visa и MasterCard не намерены блокировать карты ВТБ, Банка Москвы и Россельхозбанка http://t.co/bbbMegXsut</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1412</column>
+            <column name="twitid">494382767233180000</column>
+            <column name="date">1406705011</column>
+            <column name="name">nika_slepko</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы  #Финансы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1413</column>
+            <column name="twitid">494382767287700000</column>
+            <column name="date">1406705011</column>
+            <column name="name">lizazadorozhnay</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы  #Политика</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1414</column>
+            <column name="twitid">494382767480660000</column>
+            <column name="date">1406705011</column>
+            <column name="name">SybilUrtz</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1415</column>
+            <column name="twitid">494382767526770000</column>
+            <column name="date">1406705011</column>
+            <column name="name">AlesiaKulickova</column>
+            <column name="text">#Экономика #сео ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы: В сообщении мегарегулятора отмеча...  #fyseo_ru #читаю</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1416</column>
+            <column name="twitid">494382767585890000</column>
+            <column name="date">1406705011</column>
+            <column name="name">vtopicru</column>
+            <column name="text">#экономика ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы: В сообщении мегарегулятора отмечается, что в случае необ...  #RT</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1417</column>
+            <column name="twitid">494382910825570000</column>
+            <column name="date">1406705045</column>
+            <column name="name">Inf0manc3r</column>
+            <column name="text">Действительно, @sberbank. Обратите внимание, что у вас кодировка слетела :) http://t.co/0pHTTfS58d</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1418</column>
+            <column name="twitid">494383005851330000</column>
+            <column name="date">1406705068</column>
+            <column name="name">irinastyle79</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы http://t.co/X79Tk5U1lx</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1419</column>
+            <column name="twitid">494383006270760000</column>
+            <column name="date">1406705068</column>
+            <column name="name">tolivieldu</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы: В сообщении мегарегулятора отмечается, что в случае необходимости «буду...</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1420</column>
+            <column name="twitid">494383051552460000</column>
+            <column name="date">1406705079</column>
+            <column name="name">ya__chara</column>
+            <column name="text">#news ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1421</column>
+            <column name="twitid">494383337746620000</column>
+            <column name="date">1406705147</column>
+            <column name="name">petepulive</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы http://t.co/d8ZaTDjeYn</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1422</column>
+            <column name="twitid">494383337784360000</column>
+            <column name="date">1406705147</column>
+            <column name="name">FunnyNS</column>
+            <column name="text">ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы http://t.co/5fKlm9xwyt #новости #news #лето</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1423</column>
+            <column name="twitid">494383971305020000</column>
+            <column name="date">1406705298</column>
+            <column name="name">zzz1177</column>
+            <column name="text">RT @EchoMskNews: Международная платежная система Visa не намерена блокировать карты ВТБ, Банка Москвы и  Россельхозбанка http://t.co/5Eyhfm…</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1424</column>
+            <column name="twitid">494384686081130000</column>
+            <column name="date">1406705469</column>
+            <column name="name">zerich_info</column>
+            <column name="text">Внутридневной взгляд - Сбербанк http://t.co/c7HeCPxMQO</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1425</column>
+            <column name="twitid">494385341323690000</column>
+            <column name="date">1406705625</column>
+            <column name="name">breakkinliamole</column>
+            <column name="text">http://t.co/RLQAgxXHIJ сбербанк со скольки лет дают кредит</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1426</column>
+            <column name="twitid">494385394092620000</column>
+            <column name="date">1406705637</column>
+            <column name="name">selliKui</column>
+            <column name="text">http://t.co/Yx6YPuuSi3 сбербанк со скольки лет дают кредит</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1427</column>
+            <column name="twitid">494386426515960000</column>
+            <column name="date">1406705883</column>
+            <column name="name">YuliyaLubasheva</column>
+            <column name="text">Банк Москвы: новые санкции США не ударят по нашему бизнесу</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1428</column>
+            <column name="twitid">494386750874460000</column>
+            <column name="date">1406705961</column>
+            <column name="name">E_Baryshkov</column>
+            <column name="text">RT @bm_twit: Фондирование за счет внешних заимствований в Банке Москвы несущественно и не превышает 2% валюты баланса банка.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1429</column>
+            <column name="twitid">494387714478060000</column>
+            <column name="date">1406706191</column>
+            <column name="name">wemetfoffi</column>
+            <column name="text">http://t.co/Ucf1mk5GQ8 Взять кредит под залог недвижемости сбер банка россии</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1430</column>
+            <column name="twitid">494389922732990000</column>
+            <column name="date">1406706717</column>
+            <column name="name">lbermanMal</column>
+            <column name="text">Новости Олимпиады в России сегодня, 13 февраля: Сбербанк и Visa запустили карту в поддержку олимпийской сборной России</column>
+            <column name="sberbank">1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1431</column>
+            <column name="twitid">494390016697980000</column>
+            <column name="date">1406706739</column>
+            <column name="name">pocroviteli</column>
+            <column name="text">RT @v_milov: О, а дипломаты европейские вроде говорят что Сбер тоже подпадает под санкции по их формулировке</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1432</column>
+            <column name="twitid">494390553099140000</column>
+            <column name="date">1406706867</column>
+            <column name="name">Vzgljad</column>
+            <column name="text">RT @banki_ru: Visa не намерена блокировать карты ВТБ, Россельхозбанка и Банка Москвы http://t.co/3xPnZ4SoyE</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1433</column>
+            <column name="twitid">494390602847380000</column>
+            <column name="date">1406706879</column>
+            <column name="name">netbovalsase</column>
+            <column name="text">http://t.co/pyu8JqkOm0 кредиты в газпромбанке отзывы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">0</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1434</column>
+            <column name="twitid">494390784980830000</column>
+            <column name="date">1406706923</column>
+            <column name="name">madamprekrasnaj</column>
+            <column name="text">Visa и MasterCard объявили, что санкции США, введенные в отношении Россельхозбанка, ВТБ и Банка Москвы, не затрагивают работу с картами...</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1435</column>
+            <column name="twitid">494391639708690000</column>
+            <column name="date">1406707126</column>
+            <column name="name">forciritanip</column>
+            <column name="text">http://t.co/6HqGtCmg6I под какой процент дает сбербанк потребительский кредит</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1436</column>
+            <column name="twitid">494391869590500000</column>
+            <column name="date">1406707181</column>
+            <column name="name">a__shar</column>
+            <column name="text">RT @itass: Банк Москвы: клиенты от санкций не пострадают http://t.co/HujmRzIemz</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1437</column>
+            <column name="twitid">494392613769050000</column>
+            <column name="date">1406707359</column>
+            <column name="name">trucocplagin197</column>
+            <column name="text">Международные платежные системы MasterCard и Visa не собираются блокировать карты клиентов банков ВТБ, Банка Москвы и Россельхозбанка, кото</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1438</column>
+            <column name="twitid">494394197525680000</column>
+            <column name="date">1406707736</column>
+            <column name="name">fotusedu852</column>
+            <column name="text">NAlexandrowa иди в Альфа Банк. корпоративный отдел) на Западный.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">1</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1439</column>
+            <column name="twitid">494394486110580000</column>
+            <column name="date">1406707805</column>
+            <column name="name">banknn_ru</column>
+            <column name="text">@sberbank
+Кировское отделение Сбербанка предлагает брокерские услуги
+http://t.co/rLTT4YA5w7
+#news #новости</column>
+            <column name="sberbank">1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1440</column>
+            <column name="twitid">494395054010940000</column>
+            <column name="date">1406707940</column>
+            <column name="name">ENosov22</column>
+            <column name="text">США вели санкции против ВТБ, Россельхозбанка и &amp;amp;quot;Банка Москвы&amp;amp;quot;. Как сообщается на сайте министерства финансов США, американцам отн</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1441</column>
+            <column name="twitid">494395196361430000</column>
+            <column name="date">1406707974</column>
+            <column name="name">esnicisukid</column>
+            <column name="text">http://t.co/PmbIG9rNM1 россельхозбанк кредиты уфа</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1442</column>
+            <column name="twitid">494396263522380000</column>
+            <column name="date">1406708229</column>
+            <column name="name">ARodionova27</column>
+            <column name="text">О планах Райффайзенбанка сменить приоритет работы в России в интервью австрийскому изданию Wirtschafts Blatt сообщил глава Райффайзен Банк </column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">0</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1443</column>
+            <column name="twitid">494396309114470000</column>
+            <column name="date">1406708240</column>
+            <column name="name">izmailov5050</column>
+            <column name="text">RT @RuRepost: Банк Москвы: клиенты от санкций не пострадают #новости #экономика http://t.co/DBzTWO5CTp http://t.co/WEXjdbIQZs</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1444</column>
+            <column name="twitid">494396553289690000</column>
+            <column name="date">1406708298</column>
+            <column name="name">niscastketkeipo</column>
+            <column name="text">http://t.co/Qcv0ieJIok сбербанк кредиты условия</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1445</column>
+            <column name="twitid">494396733326370000</column>
+            <column name="date">1406708341</column>
+            <column name="name">zotfambo</column>
+            <column name="text">http://t.co/os6sjaidFf Хочу оформить кредитную карту альфа банка</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1446</column>
+            <column name="twitid">494397383372190000</column>
+            <column name="date">1406708496</column>
+            <column name="name">MErmolaev51</column>
+            <column name="text">В Красноярском филиале ОАО «Россельхозбанк» с 25 июля по 25 августа проходит «Месяц продаж ипотечных кредитов». Во всех офисах филиала (а и</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1447</column>
+            <column name="twitid">494397484362660000</column>
+            <column name="date">1406708520</column>
+            <column name="name">malvidavode999</column>
+            <column name="text">http://t.co/KVaDDfd68U Фото: sberbank.ru Список опубликуют во вторник или среду. По данным The Wall Street Journal, в него вклю</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1448</column>
+            <column name="twitid">494397572447240000</column>
+            <column name="date">1406708541</column>
+            <column name="name">LZimina12</column>
+            <column name="text">Помимо Россельхозбанка, ВТБ  и подконтрольного ему банка Москвы, под новые санкции США попала Объединенная судостроительная корпорация (ОСК</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1449</column>
+            <column name="twitid">494397704756160000</column>
+            <column name="date">1406708572</column>
+            <column name="name">evofolanre</column>
+            <column name="text">http://t.co/aXolGL9w41 со скольки лет можно взять кредит в альфа банке</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1450</column>
+            <column name="twitid">494398213705580000</column>
+            <column name="date">1406708694</column>
+            <column name="name">bimiqusiqyza</column>
+            <column name="text">http://t.co/PG3RQ6Vi6Q ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1451</column>
+            <column name="twitid">494398213927870000</column>
+            <column name="date">1406708694</column>
+            <column name="name">Cvilin</column>
+            <column name="text">#новости ЦБ РФ поддержит попавшие под санкции ВТБ, РСХБ и Банк Москвы http://t.co/ncTm24xHeD</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1452</column>
+            <column name="twitid">494398622901880000</column>
+            <column name="date">1406708791</column>
+            <column name="name">tulgatan99</column>
+            <column name="text">RT @Marketer1997: .
+
+Оросын
+- ВТБ
+- Банк Москвы
+- Россельхоз банкны
+эсрэг м?н хориг нэмж тогтоолоо
+#АНУ
+.
+.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">--</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">--</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1453</column>
+            <column name="twitid">494398812048610000</column>
+            <column name="date">1406708836</column>
+            <column name="name">GEfimenko53</column>
+            <column name="text">В «черный список» США попали «Банк Москвы», ВТБ и Россельхозбанк.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1454</column>
+            <column name="twitid">494399091657680000</column>
+            <column name="date">1406708903</column>
+            <column name="name">Vajeninaefvenes</column>
+            <column name="text">«Черный список» ЕС дополнят 5 российских олигархов, Сбербанк и ВТБ</column>
+            <column name="sberbank">-1</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1455</column>
+            <column name="twitid">494399173417250000</column>
+            <column name="date">1406708923</column>
+            <column name="name">7055011</column>
+            <column name="text">RT @US_progress: Сбербанк +3,49% #санкции</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1456</column>
+            <column name="twitid">494399175501440000</column>
+            <column name="date">1406708923</column>
+            <column name="name">kutuludutew</column>
+            <column name="text">http://t.co/TjsrDFoA2y США ввели санкции против ВТБ, Россельхозбанка и Банка Москвы</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1457</column>
+            <column name="twitid">494399176583970000</column>
+            <column name="date">1406708923</column>
+            <column name="name">TimoteSuladze</column>
+            <column name="text">@alfa_bank на mail@alfabank.ru, как и три года назад. То есть еще не совсем отправил. Вот дописываю и отправляю. Адрес актуальный ведь?</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1458</column>
+            <column name="twitid">494399359039970000</column>
+            <column name="date">1406708967</column>
+            <column name="name">dailysmi_net</column>
+            <column name="text">#СМИ Visa и MasterCard не будут блокировать карты ВТБ и Банк Москвы http://t.co/B2lYP7MWMV #новости</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1459</column>
+            <column name="twitid">494399852860540000</column>
+            <column name="date">1406709085</column>
+            <column name="name">tingkolinuzoll</column>
+            <column name="text">http://t.co/zpVIKOMa0j альфа банк процентная ставка по кредиту</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1460</column>
+            <column name="twitid">494400257502230000</column>
+            <column name="date">1406709181</column>
+            <column name="name">intShirah</column>
+            <column name="text">Россельхозбанк не ожидает негативного влияния от введенных санкций</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1461</column>
+            <column name="twitid">494400258332700000</column>
+            <column name="date">1406709181</column>
+            <column name="name">pindosenau1978</column>
+            <column name="text">В расширенный список попали ВТБ, Банк Москвы и Россельхозбанк. Европа вводит новые санкции с 1 августа. Ожидается, что они также коснутся б</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1462</column>
+            <column name="twitid">494400955690290000</column>
+            <column name="date">1406709348</column>
+            <column name="name">igino726o</column>
+            <column name="text">Россельхозбанк может обратиться к властям с просьбой о поддержке из-за санкций http://t.co/tsYuEneM9Z</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1463</column>
+            <column name="twitid">494401232770180000</column>
+            <column name="date">1406709414</column>
+            <column name="name">v_manyatko</column>
+            <column name="text">RT @duremarik: Оказывается банк ВТБ ждал утверждения кредита в $1.5 млрд. Кредиторы сказали сначала посмотрят какие будут санкции</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1464</column>
+            <column name="twitid">494402538431860000</column>
+            <column name="date">1406709725</column>
+            <column name="name">tajubipu1986</column>
+            <column name="text">Банк Москвы, включенный в перечень компаний, которым американские кредиторы не могут предоставлять финансирование дольше 90 дней, не видит</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1465</column>
+            <column name="twitid">494402538582870000</column>
+            <column name="date">1406709725</column>
+            <column name="name">MKruglova16</column>
+            <column name="text">Банк Москвы (дочерняя структура ВТБ) заявил, что его бизнес не пострадает от новых санкций США. Представители банка также утверждают, что к</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1466</column>
+            <column name="twitid">494402539014880000</column>
+            <column name="date">1406709725</column>
+            <column name="name">vtb</column>
+            <column name="text">RT @bm_twit: О санкциях: БМ сориентирован на работу на внутреннем рынке, и от введенных санкций бизнес банка никак не страдает.</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1467</column>
+            <column name="twitid">494402722393630000</column>
+            <column name="date">1406709769</column>
+            <column name="name">romka1988</column>
+            <column name="text">Обама объявил о санкциях против ВТБ, Банка Москвы, Россельхозбанка и ОСК - Газета.Ru | Политика http://t.co/aSX716yHXv с помощью @gazetaru</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1468</column>
+            <column name="twitid">494402850194460000</column>
+            <column name="date">1406709799</column>
+            <column name="name">DGubarev43</column>
+            <column name="text">США ввели санкции против ВТБ, «Банка Москвы» и Россельхозбанка</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1469</column>
+            <column name="twitid">494403331016880000</column>
+            <column name="date">1406709914</column>
+            <column name="name">IKorshunov49</column>
+            <column name="text">Новые санкции, которые США ввели в&amp;amp;nbsp;отношении ВТБ, &quot;Банка Москвы&quot; и&amp;amp;nbsp;&quot;Россельхозбанка&quot;, не коснулись работы с&amp;amp;nbsp;картами данных б</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1470</column>
+            <column name="twitid">494404044308230000</column>
+            <column name="date">1406710084</column>
+            <column name="name">global56ru</column>
+            <column name="text">Клиенты Россельхозбанка воспользуются новыми кредитными продуктами:  http://t.co/afxDVqsl7T</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1471</column>
+            <column name="twitid">494404370554180000</column>
+            <column name="date">1406710162</column>
+            <column name="name">natax06</column>
+            <column name="text">RT @ntvru: Компании Visa и MasterCard не будут блокировать карты ВТБ, Банка Москвы и Россельхозбанка, попавших под санкции США http://t.co/…</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">0</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1472</column>
+            <column name="twitid">494404657071290000</column>
+            <column name="date">1406710230</column>
+            <column name="name">KIsaev56</column>
+            <column name="text">ВТБ, Банк Москвы и Россельхозбанк в результате введения новых санкций США больше не смогут привлекать долгосрочное финансирование на Западе</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1473</column>
+            <column name="twitid">494405124601940000</column>
+            <column name="date">1406710341</column>
+            <column name="name">MNovikova26</column>
+            <column name="text">Банк Москвы работает в штатном режиме и не ощущает влияния санкций США на свою деятельность. Об этом говорится в заявлении, поступившем в &quot;</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1474</column>
+            <column name="twitid">494405501036530000</column>
+            <column name="date">1406710431</column>
+            <column name="name">OMakarov17</column>
+            <column name="text">Санкции ЕС и США не повлияют на стабильную работу Россельхозбанка</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1475</column>
+            <column name="twitid">494405545307040000</column>
+            <column name="date">1406710442</column>
+            <column name="name">timofeev_boris</column>
+            <column name="text">Россельхозбанк не ожидает негативного влияния от введения санкций США http://t.co/qHepI0ITrl</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1476</column>
+            <column name="twitid">494405545911020000</column>
+            <column name="date">1406710442</column>
+            <column name="name">timofeev_boris</column>
+            <column name="text">Банк Москвы объяснил, почему ему не страшны санкции США http://t.co/1efnG9gasO</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1477</column>
+            <column name="twitid">494405643739340000</column>
+            <column name="date">1406710465</column>
+            <column name="name">AKostina56</column>
+            <column name="text">Вашингтон ввел очередные санкции по отношению к России. На этот раз ограничения касаются ВТБ, Россельхозбанка и Банка Москвы. Под давлением</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1478</column>
+            <column name="twitid">494406017254700000</column>
+            <column name="date">1406710554</column>
+            <column name="name">kurs_RUB_EUR</column>
+            <column name="text">Курс евро в банках Уфы   http://t.co/iPXfjetLoM /  / Россельхозбанк 47,86  48,45  / Бинбанк 47,83  48,40  / Росгос.. http://t.co/6lBGJJG8r0</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1479</column>
+            <column name="twitid">494406214688970000</column>
+            <column name="date">1406710601</column>
+            <column name="name">NDmitrieva26</column>
+            <column name="text">Банк России окажет поддержку 3-м отечественным банкам – Россельхозбанку, ВТБ, Банку Москвы – попавшим в санкционный список США. Санкции Ваш</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">+-</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1480</column>
+            <column name="twitid">494406791841990000</column>
+            <column name="date">1406710739</column>
+            <column name="name">vladtronko</column>
+            <column name="text">RT @Dbnmjr: Акции #ВТБ сегодня на открытии торгов упали почти на 3% из-за санкций США и ЕС - Росбалт</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1481</column>
+            <column name="twitid">494407647157040000</column>
+            <column name="date">1406710943</column>
+            <column name="name">Megaframthedog</column>
+            <column name="text">@Dbnmjr #ВТБ Забавно то, что пока и санкций то никаких нет. Будут только с августа. А уже минус три процента. Точно хитрый план Путина...:)</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1482</column>
+            <column name="twitid">494408648639400000</column>
+            <column name="date">1406711182</column>
+            <column name="name">Echelon61</column>
+            <column name="text">В сбербанк сходил,инет проплатил с: Жизнь снова продолжается xD</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1483</column>
+            <column name="twitid">494408747343940000</column>
+            <column name="date">1406711205</column>
+            <column name="name">evTwifor</column>
+            <column name="text">http://t.co/Uo5GKDK6RQ Как взять кредит в россельхозбанке иваново</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1484</column>
+            <column name="twitid">494409120942790000</column>
+            <column name="date">1406711294</column>
+            <column name="name">SvetlanaStoo</column>
+            <column name="text">RT @GazetaRu: Американские #санкции против ВТБ, Банка Москвы и Россельхозбанка отразятся на заемщиках.  
+http://t.co/KRyvmaffGj http://t.co…</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1485</column>
+            <column name="twitid">494410329968110000</column>
+            <column name="date">1406711583</column>
+            <column name="name">ng58ru</column>
+            <column name="text">Поволжский Сбербанк проводит акцию для малого бизнеса http://t.co/1kiwdYIC6t</column>
+            <column name="sberbank">1</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1486</column>
+            <column name="twitid">494411049089900000</column>
+            <column name="date">1406711754</column>
+            <column name="name">mmineLuya</column>
+            <column name="text">http://t.co/dClrQL0W2h Сбербанк россии взять кредит на поездку на море</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1487</column>
+            <column name="twitid">494411182431020000</column>
+            <column name="date">1406711786</column>
+            <column name="name">es8552</column>
+            <column name="text">Банк Москвы не увидел угрозы от санкций США http://t.co/qiD5Jc5PWy</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1488</column>
+            <column name="twitid">494411742663820000</column>
+            <column name="date">1406711919</column>
+            <column name="name">onzasilii</column>
+            <column name="text">http://t.co/NPxNg8uMTn россельхозбанк кредит калькулятор лпх</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1489</column>
+            <column name="twitid">494411971534390000</column>
+            <column name="date">1406711974</column>
+            <column name="name">IvanRgondov</column>
+            <column name="text">Россельхозбанк не ощущает негативного влияния санкций США</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+        <table name="bank">
+            <column name="id">1490</column>
+            <column name="twitid">494414768917460000</column>
+            <column name="date">1406712641</column>
+            <column name="name">expres_ua</column>
+            <column name="text">RT @novostidnua: Вооруженные террористы похитили 4,2 млн гривен, $172 тыс., €144 тыс. и 2,6 млн рублей из отделения &quot;Райффайзен Банк Аваль&quot;…</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">-1</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1491</column>
+            <column name="twitid">494414904292410000</column>
+            <column name="date">1406712673</column>
+            <column name="name">anna_bakay</column>
+            <column name="text">Банк Москвы о санкциях: Мы не занимаем деньги в США</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1492</column>
+            <column name="twitid">494415085066940000</column>
+            <column name="date">1406712716</column>
+            <column name="name">lshewou</column>
+            <column name="text">Банк Москвы о санкциях: Мы не занимаем деньги в США http://t.co/Q4tOdl5mdW</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1493</column>
+            <column name="twitid">494415305649950000</column>
+            <column name="date">1406712769</column>
+            <column name="name">RDolganov21</column>
+            <column name="text">Банк Москвы, одно из трех финансовых учреждений, которое попало под экономические санкции США...</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1494</column>
+            <column name="twitid">494415968765250000</column>
+            <column name="date">1406712927</column>
+            <column name="name">rushkovskii</column>
+            <column name="text">Рублевые облигации ВТБ и Россельхозбанка (РСХБ) укрепляются в среду, несмотря на включение эмитентов в санкционный список США #fxcash #forex</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">+-</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">+-</column>
+        </table>
+        <table name="bank">
+            <column name="id">1495</column>
+            <column name="twitid">494415968928810000</column>
+            <column name="date">1406712927</column>
+            <column name="name">45678765456</column>
+            <column name="text">Банк Москвы о санкциях: Мы не занимаем деньги в США http://t.co/XlyJTsNiQQ</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">0</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1496</column>
+            <column name="twitid">494416115104500000</column>
+            <column name="date">1406712962</column>
+            <column name="name">VoiceWallz</column>
+            <column name="text">http://t.co/VkVflDc56q авто кредит в альфа банке</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">0</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1497</column>
+            <column name="twitid">494416567153590000</column>
+            <column name="date">1406713070</column>
+            <column name="name">DixiNews</column>
+            <column name="text">#Россия США ввели санкции против Банка Москвы, ВТБ и Россельхозбанка http://t.co/xjHoLOAxUS</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">-1</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">-1</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">-1</column>
+        </table>
+        <table name="bank">
+            <column name="id">1498</column>
+            <column name="twitid">494417420824480000</column>
+            <column name="date">1406713273</column>
+            <column name="name">orilharc</column>
+            <column name="text">образец согласия на приобретение квартиры залог и возможное отчуждение сбербанк http://t.co/4G6sVbkmHp #сбербанк #квартиры</column>
+            <column name="sberbank">0</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1499</column>
+            <column name="twitid">494418396562590000</column>
+            <column name="date">1406713506</column>
+            <column name="name">tutaev_alexandr</column>
+            <column name="text">на эл.почту #письмо пришло от @alfa_bank даже отчество моё перепутали,какое после этого может быть сотрудничество? http://t.co/dIwlF1sLDA</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">-1</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">NULL</column>
+        </table>
+        <table name="bank">
+            <column name="id">1500</column>
+            <column name="twitid">494418613705900000</column>
+            <column name="date">1406713558</column>
+            <column name="name">bbaHawth</column>
+            <column name="text">http://t.co/4EbDlL3aTw Как взять кредит в россельхозбанке в красном куте</column>
+            <column name="sberbank">NULL</column>
+            <column name="vtb">NULL</column>
+            <column name="gazprom">NULL</column>
+            <column name="alfabank">NULL</column>
+            <column name="bankmoskvy">NULL</column>
+            <column name="raiffeisen">NULL</column>
+            <column name="uralsib">NULL</column>
+            <column name="rshb">0</column>
+        </table>
+    </database>
+</pma_xml_export>

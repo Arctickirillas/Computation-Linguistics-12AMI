@@ -66,21 +66,40 @@ def processTwit(twit, processFlag):
             wordsMapping[word] = temp
 
 def postProcess(twitCounter):
-    keysForDelete = list()
+    keysForProcess = list()
+
+    max = -10000  # small int
+    min = 10000 # big int
 
     for word in wordsMapping:
         temp = wordsMapping.get(word)
 
         if (temp[0] == 0 or temp[0] == 1 or
             temp[1] == 0 or temp[1] == 1):
-            keysForDelete.append(word)
+            keysForProcess.append(word)
+            continue
         else:
             temp[0] = temp[0] / float(twitCounter)
             temp[1] = temp[1] / float(twitCounter)
             temp[2] = math.log( (temp[0] * (1 - temp[1])) / (temp[1] * (1 - temp[0])), math.e)
+
+            if (temp[2] > max):
+                max = temp[2]
+            elif (temp[2] < min):
+                min = temp[2]
+
             wordsMapping[word] = temp
-    for item in keysForDelete:
-        del wordsMapping[item]
+
+    # postprocess
+    for item in keysForProcess:
+        temp = wordsMapping.get(item)
+        temp[0] = temp[0] / float(twitCounter)
+        temp[1] = temp[1] / float(twitCounter)
+
+        if (temp[0] == 0 or temp[1] == 1): # this word determines irrelevant document,
+            wordsMapping[item][2] = min    # so assign min weight
+        elif (temp[1] == 0 or temp[0] == 1): # this word determines relevant document,
+            wordsMapping[item][2] = max      # so assign max weight
 
 def calcC():
     C = 0.0
