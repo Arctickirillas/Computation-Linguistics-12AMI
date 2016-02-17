@@ -98,7 +98,7 @@ def postProcess(twitCounter):
 
         if (temp[0] == 0 or temp[1] == 1): # this word determines irrelevant document,
             wordsMapping[item][2] = min    # so assign min weight
-        elif (temp[1] == 0 or temp[1] == 1): # this word determines relevant document,
+        elif (temp[1] == 0 or temp[0] == 1): # this word determines relevant document,
             wordsMapping[item][2] = max      # so assign max weight
 
 def calcC():
