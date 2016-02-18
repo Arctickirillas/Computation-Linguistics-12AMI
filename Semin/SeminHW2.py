@@ -8,7 +8,8 @@ end = ").xml"
 regex = re.compile('[%s]' % re.escape(string.punctuation+string.ascii_letters+'«»'+string.digits+'–…'))
 dicr = dict({})
 dicall = dict({})
-index = 0
+n = 0
+r = 0
 for i in range(1, 51):
     result = start + str(i) + end
     tree = et.parse(result)
@@ -25,6 +26,8 @@ for i in range(1, 51):
                     if(dicall.get(word) is None):
                         dicall[word] = set()
                     dicall[word].add(int(child[0].text))
+                r += 1
+                n += 1
                 break
             else:
                 if(child[4 + j].text == '-1'):
@@ -34,13 +37,11 @@ for i in range(1, 51):
                         if dicall.get(word) is None:
                             dicall[word] = set()
                         dicall[word].add(int(child[0].text))
+                    n += 1
                     break
-        index += 1
 
 
 ci = dict({})
-r = len(dicr)
-n = len(dicall)
 c = 0
 for word in dicall:
     if dicr.get(word) is not None:
