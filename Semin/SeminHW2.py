@@ -5,10 +5,11 @@ import math
 
 start = "banks/bank ("
 end = ").xml"
-regex = re.compile('[%s]' % re.escape(string.punctuation))
+regex = re.compile('[%s]' % re.escape(string.punctuation+string.ascii_letters+'«»'+string.digits+'–…'))
 dicr = dict({})
 dicall = dict({})
-index = 0
+n = 0
+r = 0
 for i in range(1, 51):
     result = start + str(i) + end
     tree = et.parse(result)
@@ -17,7 +18,7 @@ for i in range(1, 51):
         for j in range(1, 9):
             if(child[4 + j].text == '1'):
                 # means relevant text
-                text = (regex.sub(' ', str(child[4].text))).split()
+                text = (str(regex.sub(' ', str(child[4].text)))).split()
                 for word in text:
                     if(dicr.get(word) is None):
                         dicr[word] = set()
@@ -25,6 +26,8 @@ for i in range(1, 51):
                     if(dicall.get(word) is None):
                         dicall[word] = set()
                     dicall[word].add(int(child[0].text))
+                r += 1
+                n += 1
                 break
             else:
                 if(child[4 + j].text == '-1'):
@@ -34,13 +37,11 @@ for i in range(1, 51):
                         if dicall.get(word) is None:
                             dicall[word] = set()
                         dicall[word].add(int(child[0].text))
+                    n += 1
                     break
-        index += 1
 
 
 ci = dict({})
-r = len(dicr)
-n = len(dicall)
 c = 0
 for word in dicall:
     if dicr.get(word) is not None:
@@ -57,11 +58,13 @@ for word in ci:
     f.write(word+';')
     f.write(str(ci[word]))
     f.write('\n')
+f.write('\nC;'+str(c)+'\n')
 f.close()
 s = input('Enter the line\n')
 s = re.split('\.| |,|;', s)
 
 result = c
 for word in s:
-    result += ci[word]
+    if ci.get(word) is not None:
+        result += ci[word]
 print(result)
