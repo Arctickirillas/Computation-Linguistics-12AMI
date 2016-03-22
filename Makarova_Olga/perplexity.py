@@ -12,7 +12,7 @@ def Threegrams():
     for line in txt:
         item = line.split('\t')
         try:
-            gram3[(item[1],item[3],item[5])] = int(item[0])/int(max)
+            gram3[(item[1],item[3],item[5])] = int(item[0])/int(MAX_COUNT)
         except:
             pass
     return gram3
