@@ -17,7 +17,7 @@ def Threegrams():
 
     file = open ('3grams-3.txt', mode ='r') 
     for i in file:
-        #i = i[0:-1]
+        i = i[0:-1]
         words = i.split('\t')
         #print float(words[0])/MAX_COUNT
         gramma=''
@@ -34,7 +34,7 @@ def Threegrams():
 def Mythreegrams():
     file = open ("1.txt", mode ='r')
     for i in file:
-        #i = i[0:-1]
+        i = i[0:-1]
         #regex = re.compile('[%s]' % re.escape(string.punctuation + string.digits + string.ascii_letters))
         #words = regex.sub('', words)
         words = i.split()  
